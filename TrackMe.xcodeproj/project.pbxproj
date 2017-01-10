@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B94EB6631E0987210069484C /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94EB6621E0987210069484C /* FriendsTableViewCell.swift */; };
 		B9A2A7531DD14CD1005297FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A2A7521DD14CD1005297FE /* AppDelegate.swift */; };
 		B9A2A7581DD14CD1005297FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9A2A7561DD14CD1005297FE /* Main.storyboard */; };
 		B9A2A75A1DD14CD1005297FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9A2A7591DD14CD1005297FE /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B94EB6621E0987210069484C /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
 		B9A2A74F1DD14CD1005297FE /* TrackMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9A2A7521DD14CD1005297FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9A2A7571DD14CD1005297FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B94EB6611E0987020069484C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B94EB6621E0987210069484C /* FriendsTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		B9A2A7461DD14CD0005297FE = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +123,7 @@
 			children = (
 				B9A2A7561DD14CD1005297FE /* Main.storyboard */,
 				B9A2A7521DD14CD1005297FE /* AppDelegate.swift */,
+				B94EB6611E0987020069484C /* Views */,
 				B9A2A7801DD2B285005297FE /* View Controllers */,
 				B9A2A7591DD14CD1005297FE /* Assets.xcassets */,
 				B9A2A75B1DD14CD1005297FE /* LaunchScreen.storyboard */,
@@ -299,6 +310,7 @@
 				B9A2A7861DD2B48B005297FE /* FriendsViewController.swift in Sources */,
 				B9A2A7531DD14CD1005297FE /* AppDelegate.swift in Sources */,
 				B9A2A7921DD2CC23005297FE /* CreateViewController.swift in Sources */,
+				B94EB6631E0987210069484C /* FriendsTableViewCell.swift in Sources */,
 				B9A2A7881DD2B4AF005297FE /* ProfileViewController.swift in Sources */,
 				B9A2A7841DD2B46A005297FE /* TrackViewController.swift in Sources */,
 				B9A2A7901DD2CB47005297FE /* LoginViewController.swift in Sources */,
@@ -549,6 +561,7 @@
 				B9A2A7791DD14CD1005297FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9A2A77A1DD14CD1005297FE /* Build configuration list for PBXNativeTarget "TrackMeTests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +570,7 @@
 				B9A2A77C1DD14CD1005297FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9A2A77D1DD14CD1005297FE /* Build configuration list for PBXNativeTarget "TrackMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +579,7 @@
 				B9A2A77F1DD14CD1005297FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
